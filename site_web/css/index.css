@@ -1,0 +1,44 @@
+html 
+{
+	text-align: center;
+}
+hr 
+{
+	color: red;
+  	background-color: #FF0000;
+}
+.barre div 
+{
+	display: inline-block;
+	width: 200px;
+	color: red;
+}
+.barre div a
+{
+	color: red;
+}
+.aligner div {
+	display: inline-block;
+	width: 300px;
+}
+table
+{
+	border: 1px solid gray;
+	background-color: #DCDCDC;
+}
+.produits div{
+	display: inline-block;
+	width: 300px;
+}
+.tableau div
+{
+	display: inline-block;
+}
+h2
+{
+	color: red;
+}
+footer p
+{
+	font-size: 12px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<TITLE> CHIEN </TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../css/chat.css" media="all"/>
+	</head>
+	<body>
+		<center><h1><FONT color="#8B008B"> Chien </FONT></h1></center>
+		<div class="barre">
+            <div>
+   			   <a href="../Index.html"> ACCUEIL </font></a>
+            </div>
+            <div>
+   			   <a href="Chien.html"> CHIEN </font></a>
+            </div>
+            <div>
+   			   <a href="Chat.html"> CHAT </font></a>
+            </div>
+            <div>
+   			   <a href="Contact.html"> CONTACT </font></a>
+            </div>
+            <div>
+               <a href="boutique.html"> BOUTIQUE </a>
+            </div>
+            <div>
+               <a href="panier.html">Invité (2 articles)<img src="../image/Button/panier2.png"/></a>
+            </div>
+            <div>
+               <a href="pagelogin.html">Connectez-vous ! </a>
+            </div>
+      </div>
+   			<hr>
+   				<img src="../image/Fond/groupechien.jpg"/>
+            <hr>
+            <h1>
+               Adoptez-nous !
+            </h1>
+            <h3>
+               <p>Si vous souhaitez adopter un chien <a href="Contact.html">contactez-nous ! </a></p>
+            </h3>
+            <h2>
+               Coup de coeur:
+            </h2>
+            <div class="chatvendre">
+               <div>
+                  <p>Jeune Alaskan Malamute</p>
+                  <img src="../image/Chien/chien1.jpg"/>
+                  <p>833.33€ (HT) </p>
+                  <p>1000€ (TTC) </p>
+               </div>
+               <div>
+                  <p>Jeune Setter Anglais</p>
+                  <img src="../image/Chien/chien2.jpg"/>
+                  <p>666.67€ (HT) </p>
+                  <p>800€ (TTC) </p>
+               </div>
+               <div>
+                  <p>Jeune Chien-loup de Saarlos</p>
+                  <img src="../image/Chien/chien3.jpg"/>
+                  <p>791.67€ (HT)</p>
+                  <p>950€ (TTC) </p>
+               </div>
+               <div>
+                  <p>Jeune Berger Yougoslave</p>
+                  <img src="../image/Chien/chien4.jpg"/>
+                  <p>708.33€ (HT)</p>
+                  <p>850€ (TTC)</p>
+               </div>
+            </div>
+            <h2>
+               Nouvelles portées:
+            </h2>
+            <div class="portee">
+               <div>
+                  <p>Nouvelle portée de 6 Samoyèdes<br>du 22/10/15</p>
+                  <img src="../image/Chien/porteechien1.jpg"/>
+                  <p>Chiot à partir de 890.83€ (HT) </p>
+                  <p>1069€ (TTC)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 3 Alaskan Malamutes<br>du 23/10/15</p>
+                  <img src="../image/Chien/porteechien2.jpg"/>
+                  <p>Chiot à partir de 625€ (HT) </p>
+                  <p>750€ (TTC)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 4 Chiens-loup Tchécoslovaque<br>du 19/10/15</p>
+                  <img src="../image/Chien/porteechien3.jpg"/>
+                  <p>Chiot à partir de 1166.67€ (HT) </p>
+                  <p>1400€ (TTC)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 6 Chiens-loup de Saarlos<br>du 26/10/15</p>
+                  <img src="../image/Chien/porteechien4.jpg"/>
+                  <p>Chiot à partir de 750€ (HT) </p>
+                  <p>900€ (TTC)</p>
+               </div>
+            </div>
+            <div class="tab">
+                  <div>
+                     <table border width=900>
+                     <th> <h4> N'oubliez pas qu'un chien n'est pas un jouet. </h4> </th>
+                  </div>
+               </table>
+            </div>
+	</body>
+   <footer>
+      <p>&copy; Copyright 2015 - DOGAT, tout droit réservé.<br> 2015 - Ce site est une propriétée de Thibault PERDRIJAU et de Thomas LACAMBRA.</p>
+   </footer>
+</html>

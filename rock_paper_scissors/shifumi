@@ -1,0 +1,30 @@
+#!/bin/bash
+source ./part1.sh
+
+clear
+if ! [ "$(echo $1 | grep "^[[:digit:]]*$")" ]
+then
+    echo "Error the parameter entered is not a number."
+    echo""
+elif [[ "$2" == "" ]]; then
+	victory_player=0
+	echo "Ready to play Shifumi? Here we go!"
+	echo ""
+	while ! [ $1 == "$victory_player" ] && ! [[ "$y" == "y" ]]
+	do
+		{
+			aff_choice
+		}
+	done
+		if [ $1 == "$victory_player" ];then
+		echo "YOU won!"
+		echo "See you on rock-paper-scissors."
+		echo ""
+		else
+			echo "See you on rock-paper-scissors."
+			echo ""
+		fi
+else
+	echo "The script only need 1 argument"
+	echo ""
+fi

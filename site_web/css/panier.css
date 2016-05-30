@@ -1,0 +1,31 @@
+html 
+{
+	text-align: center;
+}
+h2
+{
+	color: red;
+}
+footer p
+{
+	font-size: 12px;
+}
+.barre div 
+{
+	display: inline-block;
+	width: 200px;
+}
+.barre div a
+{
+	color: red;
+}
+.article div
+{
+	display: inline-block;
+	width: 300px;
+}
+.payer div
+{
+	display: inline-block;
+	width: 300px;
+}

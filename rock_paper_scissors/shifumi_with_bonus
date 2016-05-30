@@ -1,0 +1,47 @@
+#!/bin/bash
+source ./normal_bonus.sh
+
+function first()
+{
+	if ! [ "$1" == "" ];then
+		echo "Les parametre ne sont pas pris en compte"
+	fi
+	echo -e "A quel jeu voulez-vous joue?
+	\t\t=> 1 : Shifumi You versus Bot\n\t\t\t=> 2 : Shifumi Variante a 5 choix
+	\t\t=> 3 : Quit"
+	read jeu
+	while ! [ "$(echo $jeu | grep "^[1-3]$")" ];do
+		echo "Veuillez entrer un choix proposer"
+		read jeu
+	done
+	if [ "$jeu" == 1 ];then
+		main_normal
+	elif [ "$jeu" == 2 ]; then
+		shi5
+	else
+		echo -e "\033[35mAu revoir !\033[0m"
+	fi
+}
+
+function shi5()
+{
+	clear
+	source ./"P\F\S\S\L.sh"
+	match_param
+	cumpter=0
+	next
+}
+
+function fin()
+{
+	if [[ "$cumpter" == "quit" ]];then
+		echo -e "\t\033[45;5mAu revoir !!\033[0m"
+	elif [ $sordi == $limite ];then
+		echo -e "\t\033[45;5mVous avez perdu contre spock !!\033[0m"
+	elif [ $sjoueur == $limite ];then
+		echo -e "\t\033[45;5mVous avez gagner contre spock !!\033[0m"		
+	fi
+}
+
+clear
+first

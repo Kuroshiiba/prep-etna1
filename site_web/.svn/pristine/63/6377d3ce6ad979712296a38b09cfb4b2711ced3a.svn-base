@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<TITLE> DOGAT </TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link rel="stylesheet" type="text/css" href="../css/panier.css" media="all"/>
+	</head>
+	<body>
+		<h1><FONT color="#8B008B"> DOGAT </FONT></h1>
+		<div class="barre">
+            <div>
+   			   <a href="../Index.html"> ACCUEIL </font></a>
+            </div>
+            <div>
+   			   <a href="Chien.html"> CHIEN </font></a>
+            </div>
+            <div>
+   			   <a href="Chat.html"> CHAT </font></a>
+            </div>
+            <div>
+   			   <a href="Contact.html"> CONTACT </font></a>
+            </div>
+            <div>
+               <a href="boutique.html"> BOUTIQUE </a>
+            </div>
+            <div>
+               <a href="panier.html">Invité (2 articles)<img src="../image/Button/panier2.png"/></a>
+            </div>
+            <div>
+               <a href="pagelogin.html"> Connectez-vous ! </a>
+            </div>
+      </div>
+   	<hr>
+      <img src="../image/Fond/pachat.jpg"/>
+      <hr>
+      <h2> Votre panier: 2 articles</h2>
+      <div class="article">
+         <div>
+            <p> Harnais pour chien <br> de couleur rouge </p>
+            <img src="../image/Accessoire/harnais.jpg"/>
+            <p>25.01€ (HT) </p>
+            <p> 30.01€ (TTC) </p> 
+         </div>
+         <div>
+         <p> Laisse pour chien <br> en cuir rouge </p>
+         <img src="../image/Accessoire/laisse2.jpg"/>
+         <p>15.83€ (HT) </p>
+         <p> 19.00€ (TTC) </p>
+         </div>
+      </div> 
+      <div>
+         <h3>Total à payer : 49.01€ (TTC)</h3>
+         <a href="../html/pagelogin.html"><img src="../image/Button/commander.png"/></a>
+      </div>
+
+   </body>
+   <footer>
+      <p>&copy; Copyright 2015 - DOGAT, tout droit réservé.<br> 2015 - Ce site est une propriétée de Thibault PERDRIJAU et de Thomas LACAMBRA.</p>
+   </footer>
+</html>

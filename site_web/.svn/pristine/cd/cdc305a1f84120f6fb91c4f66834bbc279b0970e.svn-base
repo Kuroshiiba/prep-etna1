@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<TITLE> Formulaire d'inscription </TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link rel="stylesheet" type="text/css" href="../css/pagelogin.css" media="all"/>
+	</head>
+	<body>
+		<h1><FONT color="#8B008B"> Formulaire d'inscription : </FONT></h1>
+		<div class="barre">
+            <div>
+   			   <a href="../Index.html"> ACCUEIL </font></a>
+            </div>
+            <div>
+   			   <a href="Chien.html"> CHIEN </font></a>
+            </div>
+            <div>
+   			   <a href="Chat.html"> CHAT </font></a>
+            </div>
+            <div>
+   			   <a href="Contact.html"> CONTACT </font></a>
+            </div>
+            <div>
+               <a href="boutique.html"> BOUTIQUE </a>
+            </div>
+            <div>
+               <a href="panier.html">Invité (2 articles)<img src="../image/Button/panier2.png"/></a>
+            </div>
+            <div>
+            	<a href="pagelogin.html"> Connectez-vous ! </a>
+            </div>
+      </div>
+      	<hr>
+      	<img src="../image/Fond/chienordi.png"/>
+      	<hr>   
+      <center>
+         <h2><font color="#FF000"> Formulaire </font></h2>
+         <table>
+         <FORM action="pagelogin.html">
+            <tr>
+               <th><label> Login : </th>
+               <td><input type="text" id="login" name="Nom" required="required" /> </label></td>
+            </tr>
+            <tr>
+               <th><label> Mot de passe : </th>
+               <td><input type="password" id="pwd" name="Mot de passe" required="required" /> </label><br></td>
+            </tr>
+            <tr>
+               <th><label> Réecrivez votre mot de passe : </th>
+               <td><input type="password" id="pwd" name="Mot de passe" required="required" /> </label><br></td>
+            </tr>
+            <tr>
+               <th><label> Adresse Mail : </th>
+               <td><input type="email" name="usrmail" required="required" /> </label><br></td>
+            </tr>
+            <tr>
+               <th><label> Réecrivez votre adresse Mail : </th>
+               <td><input type="email" name="usrmail" required="required" /> </label><br></td>
+            </tr>
+         <tr>
+               <th><label> Date de naissance : </th>
+               <td><input type="date" name="bday" required="required" /> </label><br></td>
+         </tr>
+         <tr>
+               <th><label> Numéro de téléphone : </th>
+               <td><input type="tel" name="usrtel" required="required" /> </label><br></td>
+            </tr>
+            <tr>
+               <th><label> Adresse : </th>
+               <td><input type="text" id="adresse" name="rue" required="required" /> </label></td>
+            </tr>
+            <tr>
+               <th><label> Code Postal : </th>
+               <td><input type="text" id="adresse" name="codepostal" required="required" /> </label></td>
+            </tr>
+            <tr>
+               <th><label> Ville : </th>
+               <td><input type="text" id="adresse" name="ville" required="required" /> </label></td>
+            </tr>
+         <tr>
+               <th><label> Vous avez : </th>
+               <td><input type="number" name="quantitydog" min="0" max="42" required="required" /> chien(s).</label><br></td>
+            </tr>
+         <tr>
+               <th><label> Vous avez : </th>
+               <td><input type="number" name="quantitydog" min="0" max="42" required="required" /> chat(s).</label><br></td>
+            </tr>
+         <tr>
+            <th><label> Validation : </label></th>
+            <td><input type="submit" value="Envoyer" /></td>
+         </tr>
+      </FORM>
+      </table>
+      <img src="../image/Fond/chatordinateur.jpg"/>
+      </center>
+   </body>
+   <footer>
+      <p>&copy; Copyright 2015 - DOGAT, tout droit réservé.<br> 2015 - Ce site est une propriétée de Thibault PERDRIJAU et de Thomas LACAMBRA.</p>
+   </footer>
+</html>

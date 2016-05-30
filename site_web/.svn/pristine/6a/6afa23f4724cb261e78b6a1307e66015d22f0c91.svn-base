@@ -1,0 +1,29 @@
+html 
+{
+	text-align: center;
+}
+a
+{
+	color: #800080;
+}
+.barre div 
+{
+	display: inline-block;
+	width: 200px;
+}
+.barre div a
+{
+	color: red;
+}
+h2
+{
+	color: red;
+}
+footer p
+{
+	font-size: 12px;
+}
+a:active
+{
+background-color: #FFCC66;
+}

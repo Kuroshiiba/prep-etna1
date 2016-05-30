@@ -1,0 +1,16 @@
+Bienvenue, ici nous allons vous décrire les bonus ajoutés a ce projet.
+
+Dans un premier temps nous avons un choix entre trois labyrinthes différents (qui sont en .txt). Ce choix se fait au lancement du programme.
+
+Nous avons mis un mode Blind.
+Ce mode permet de vous déplacer dans le labyrinthe sans voir les murs, si vous vous prennez un mur, nous vous demanderons si vous souhaitez rejouer.
+A chaque fois que vous lancez ce mode, vous pouvez apercevoir les mur pendant un court temps.
+
+Nous avons aussi ajouté un mode octo.
+Ce mode permet de vous déplacer dans le labyrinthe tout en voyant uniquement les murs adjacents à votre position.
+
+Les déplacements de l'octocat et la navigation du menu s'appuient sur l'utilisation de pointeurs sur fonctions.
+
+Le mode miroir permet de jouer avec les commandes inversés.
+
+Dans le mode rotate le joueur voit le labyrinthe tourner à chacun de ses déplacements.

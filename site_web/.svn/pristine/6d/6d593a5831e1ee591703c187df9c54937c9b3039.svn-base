@@ -1,0 +1,41 @@
+hr 
+{
+	color: #FF0000;
+  	background-color: #FF0000;
+}
+.barre div 
+{
+	display: inline-block;
+	width: 200px;
+}
+.barre div a
+{
+	color: red;
+}
+.aligner div 
+{
+	display: inline-block;
+	width: 300px;
+}
+.text div
+{
+	display: inline-block;
+}
+.tab div
+{
+	width: 900px;
+	display: inline-block;
+	background-color: #DCDCDC;
+}
+html
+{
+	text-align: center;
+}
+h2
+{
+	color: red;
+}
+footer p
+{
+	font-size: 12px;
+}

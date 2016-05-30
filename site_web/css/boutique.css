@@ -1,0 +1,31 @@
+html 
+{
+	text-align: center;
+}
+.barre div 
+{
+	display: inline-block;
+	width: 200px;
+}
+.barre div a
+{
+	color: red;
+}
+.prochien div
+{
+	display: inline-block;
+	width: 300px;
+}
+.prochat div
+{
+	display: inline-block;
+	width: 300px;
+}
+h2
+{
+	color: red;
+}
+footer p
+{
+	font-size: 12px;
+}

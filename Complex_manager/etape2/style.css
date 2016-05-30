@@ -1,0 +1,42 @@
+body {
+    background-color: #efefef;
+}
+
+#div {
+    text-align: center;
+    background: #ee0;
+    background: -webkit-linear-gradient(#ee0, #dd0);
+    background: -o-linear-gradient(#ee0, #dd0);
+    background: -moz-linear-gradient(#ee0, #dd0);
+    background: linear-gradient(#ddd, #ccc);
+    width: 700px;
+    margin: 50px auto;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 20px gray;
+    -moz-box-shadow: 0px 0px 20px gray;
+    box-shadow: 0px 0px 20px gray;
+    padding: 30px;
+    border: solid black 3px;
+}
+
+#table2 tbody tr td:first-child {
+    text-align: right;
+}
+
+#table2 tbody tr td:last-child {
+    text-align: left;
+}
+
+#table2, #table1 {
+    margin: auto;
+}
+
+#table1 button {
+    width: 100%;
+}
+
+canvas {
+    background-color: white;
+}

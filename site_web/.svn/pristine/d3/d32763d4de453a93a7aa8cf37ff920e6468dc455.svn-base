@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<TITLE> CHAT </TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../css/chat.css" media="all"/>
+	</head>
+	<body>
+		<center><h1><FONT color="#8B008B"> Chat </FONT></h1></center>
+		<div class="barre">
+            <div>
+   			   <a href="../Index.html"> ACCUEIL </font></a>
+            </div>
+            <div>
+   			   <a href="Chien.html"> CHIEN </font></a>
+            </div>
+            <div>
+   			   <a href="Chat.html"> CHAT </font></a>
+            </div>
+            <div>
+   			   <a href="Contact.html"> CONTACT </font></a>
+            </div>
+            <div>
+               <a href="boutique.html"> BOUTIQUE </a>
+            </div>
+            <div>
+               <a href="panier.html">Invité (2 articles)<img src="../image/Button/panier2.png"/></a>
+            </div>
+            <div>
+               <a href="pagelogin.html">Connectez-vous ! </a>
+            </div>
+      </div>
+   			<hr>
+   				<img src="../image/Fond/groupechat.jpg"/>
+            <hr>
+            <h1>
+               Adoptez-nous !
+            </h1>
+            <h3>
+               <p>Si vous souhaitez adopter un chat <a href="../html/Contact.html">contactez-nous ! </a></p>
+            </h3>
+            <h2>
+               Coup de coeur:
+            </h2>
+            <div class="chatvendre">
+               <div>
+                  <p>Chat calme qui demande<br>beaucoup d'attention</p>
+                  <img src="../image/Chat/chat1.jpg"/>
+                  <p>166.67€ (HT)</p>
+                  <p>200€ (TTC) </p>
+               </div>
+               <div>
+                  <p>Chat de salon très doux</p>
+                  <img src="../image/Chat/chat2.jpg"/>
+                  <p>458.33€ (HT)</p>
+                  <p>550€ (TTC) </p>
+               </div>
+               <div>
+                  <p>Chat joueur qui vous rendra<br>heureux par sa bonne humeur</p>
+                  <img src="../image/Chat/chat3.jpg"/>
+                  <p>416.67€ (HT)</p>
+                  <p>442€ (au lieu de 500€ TTC)</p>
+               </div>
+               <div>
+                  <p>Chat adorable avec lequel<br>vous ne vous ennuierez jamais</p>
+                  <img src="../image/Chat/chat2.jpg"/>
+                  <p>666.67€ (HT) </p>
+                  <p>800€ (TTC) </p>
+               </div>
+            </div>
+            <h2>
+               Nouvelles portées:
+            </h2>
+            <div class="portee">
+               <div>
+                  <p>Nouvelle portée de 4 chatons<br>du 20/10/15</p>
+                  <img src="../image/Chat/portee1.jpg"/>
+                  <p>Chaton à partir de 785€</p>
+                  <p>942€ (TTC)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 5 chatons<br>du 21/10/15</p>
+                  <img src="../image/Chat/portee2.jpg"/>
+                  <p>Chaton à partir de 784.17€</p>
+                  <p>941€ (HT)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 4 chatons<br>du 25/10/15</p>
+                  <img src="../image/Chat/portee3.jpg"/>
+                  <p>Chaton à partir de 701.67€</p>
+                   <p>842€ (TTC)</p>
+               </div>
+               <div>
+                  <p>Nouvelle portée de 2 chatons<br>du 01/10/15</p>
+                  <img src="../image/Chat/portee4.jpg"/>
+                  <p>Chaton à partir de 868.33€</p>
+                  <p>1042€ (TTC)</p>
+               </div>
+            </div>
+            <div class="tab">
+                  <div>
+                     <table border width=900>
+                     <th> <h4> N'oubliez pas qu'un chat n'est pas un jouet. </h4> </th>
+                  </div>
+               </table>
+            </div>
+	</body>
+   <footer>
+      <p>&copy; Copyright 2015 - DOGAT, tout droit réservé.<br> 2015 - Ce site est une propriétée de Thibault PERDRIJAU et de Thomas LACAMBRA.</p>
+   </footer>
+</html>
