@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Sujet JavaScript</title>
+	</head>
+	<body>
+		<center>
+			<div>
+				<h1 id="bonus"><font color="blue">Bonjour, veuillez entrez une adresse mail valide.</font></h1>
+				<h3 id="bonus2"></h1>
+				<h3 id="bonus3"></h1>
+				<h1 id="display"></h1>
+			</div>
+			<div>
+				<input type="text" id="input" onkeyup="func_input()" />
+				<input type="submit" id="button" onclick="func_button()" disabled/>
+			</div>
+			<div>
+				<select id="items" onChange="func_item()" />
+			</div>
+		</center>
+
+		<script type="text/javascript">
+		function	func_input()
+		{
+			var title = document.getElementById("display");
+			var bonus = document.getElementById("bonus");
+			var bonus2 = document.getElementById("bonus2");
+			var bonus3 = document.getElementById("bonus3");
+			var value_input = document.getElementById('input').value
+			var verif = new RegExp('^[0-9a-z._-]+@{1}[0-9a-z.-]{2,}[.]{1}[a-z]{2,5}$','i');
+			if (verif.test(value_input) == false)
+			{
+				document.getElementById('button').disabled = true;
+				bonus.innerHTML = "<font color=\"red\">Veuillez entrez une adresses mail valide.</font>";
+				bonus2.innerHTML = "";
+				bonus3.innerHTML = "";
+				title.innerHTML = "";
+			}
+			else
+			{
+				document.getElementById('button').disabled = false;
+				bonus.innerHTML = "<font color=\"green\">Votre email est valide, vous pouvez cliquer sur valider</font>";
+				bonus2.innerHTML = "";
+				bonus3.innerHTML = "";
+				title.innerHTML = "";
+
+			}
+		}
+
+		function func_button() 
+		{
+			var title = document.getElementById("display");
+			var bonus = document.getElementById("bonus");
+			var bonus2 = document.getElementById("bonus2");
+			var bonus3 = document.getElementById("bonus3");
+		    var item = document.getElementById("items");
+		    var option = document.createElement("option");
+		    var mot = document.getElementById('input').value;
+		    option.text = mot;
+		    item.add(option);
+		    
+		    bonus.innerHTML = "<font color=\"purple\">Vous avez rentré l'adresse mail dans le select.</font>";
+			bonus2.innerHTML = "<font color=\"purple\">Verifiez qu'il y à déjà au moins 2 adresse mail dans le select.</font>";
+			bonus3.innerHTML = "<font color=\"purple\">Puis sélectionnez-en un.</font>";
+			title.innerHTML = "";
+
+		}
+
+		function func_item() 
+		{
+			var bonus = document.getElementById("bonus");
+			var bonus2 = document.getElementById("bonus2");
+			var bonus3 = document.getElementById("bonus3");
+			var item = document.getElementById("items");
+			var mot_selec = item.options[item.selectedIndex].text;
+			var title = document.getElementById("display");
+
+			title.innerHTML = mot_selec;
+			bonus.innerHTML = "<font color=\"orange\">Voici l'adresse mail sélectionnée:</font>";
+			bonus2.innerHTML = "";
+			bonus3.innerHTML = "";
+		}
+		</script>
+	</body>
+</html>
